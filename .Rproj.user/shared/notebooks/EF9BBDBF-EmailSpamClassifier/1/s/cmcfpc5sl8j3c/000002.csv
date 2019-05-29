@@ -1,4 +1,0 @@
-"0","spam.train.files <- list.files(path = ""data/emails/spam-train"", full.names = TRUE)"
-"0","#spam.train.files[1:10]"
-"0","nonspam.train.files <- list.files(path = ""data/emails/nonspam-train"", full.names = TRUE)"
-"0","# nonspam.train.files[1:10]"

@@ -1,6 +1,0 @@
-"0","```r
-dtm.final <- as.matrix(dtm.reduced)
-dim(dtm.final)
-```"
-"1","[1]  960 1268
-"

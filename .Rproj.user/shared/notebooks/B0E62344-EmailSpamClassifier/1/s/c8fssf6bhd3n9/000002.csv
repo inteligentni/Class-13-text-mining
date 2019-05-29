@@ -1,8 +1,0 @@
-"0","```r
-getwd()
-```"
-"1","[1] \"/Users/Jelena/R Studio Projects/IntelligentSystems_Fall2017\"
-"
-"0","```r
-source(\"text_mining_utils.R\")
-```"

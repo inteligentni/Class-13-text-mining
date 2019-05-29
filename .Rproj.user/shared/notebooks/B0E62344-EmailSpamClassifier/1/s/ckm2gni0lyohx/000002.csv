@@ -1,7 +1,0 @@
-"0","```r
-train.data$label <- as.factor(train.data$label)
-summary(train.data$label)
-```"
-"1","nonspam    spam 
-    350     350 
-"

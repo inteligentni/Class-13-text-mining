@@ -1,6 +1,0 @@
-"0","```r
-compute.eval.measures(nb.cm)
-```"
-"1"," accuracy precision    recall        F1 
-   0.9269    0.9587    0.8923    0.9243 
-"

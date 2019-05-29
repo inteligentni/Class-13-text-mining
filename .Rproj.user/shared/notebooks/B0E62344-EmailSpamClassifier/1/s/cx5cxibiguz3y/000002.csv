@@ -1,6 +1,0 @@
-"0","```r
-compute.eval.measures(test.conf.mat)
-```"
-"1"," accuracy precision    recall        F1 
-   0.9615    0.9412    0.9846    0.9624 
-"

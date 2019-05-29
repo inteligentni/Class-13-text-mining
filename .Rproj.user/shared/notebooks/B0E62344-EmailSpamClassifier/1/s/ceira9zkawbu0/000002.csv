@@ -1,6 +1,0 @@
-"0","```r
-training.size <- ceiling( 700 * 0.75 ) # remember, we have 700 emails in the original training dataset
-training.set <- dtm.final[1:training.size, ]
-validate.set <- dtm.final[(training.size+1):700, ]
-test.set <- dtm.final[701:nrow(dtm.final),]
-```"

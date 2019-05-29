@@ -1,2 +1,0 @@
-"0","training.dtm <- dtm.final[1:nrow(train.data),]"
-"0","test.dtm <- dtm.final[(nrow(train.data)+1):nrow(dtm.final),]"
