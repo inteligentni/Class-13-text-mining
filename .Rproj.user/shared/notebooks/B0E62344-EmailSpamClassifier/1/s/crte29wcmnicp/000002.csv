@@ -1,0 +1,9 @@
+"0","```r
+k <- 7
+train.labels <- train.data$label[1:nrow(training.set)]
+set.seed(135)
+knn.fit <- knn(train = training.set,
+               test = validate.set,
+               cl = train.labels,
+               k = k)
+```"

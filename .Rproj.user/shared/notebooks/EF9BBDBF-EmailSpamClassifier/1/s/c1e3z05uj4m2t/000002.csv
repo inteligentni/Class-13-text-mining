@@ -1,0 +1,4 @@
+"0","knn.fit2 <- knn(train = training.dtm,"
+"0","                test = test.dtm,"
+"0","                cl = train.labels,"
+"0","                k = 13)"

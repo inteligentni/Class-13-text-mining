@@ -1,0 +1,10 @@
+"0","```r
+dtm.reduced <- removeSparseTerms(dtm, sparse = 0.975)
+dtm.reduced
+```"
+"1","<<DocumentTermMatrix (documents: 960, terms: 1268)>>
+Non-/sparse entries: 90327/1126953
+Sparsity           : 93%
+Maximal term length: 15
+Weighting          : term frequency (tf)
+"

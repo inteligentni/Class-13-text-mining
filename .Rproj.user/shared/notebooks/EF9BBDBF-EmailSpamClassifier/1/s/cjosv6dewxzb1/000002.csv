@@ -1,0 +1,7 @@
+"0","all.data <- rbind(train.data, test.data)"
+"0","dim(all.data)"
+"1","[1]"
+"1"," 960"
+"1","   3"
+"1","
+"

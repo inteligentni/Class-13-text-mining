@@ -1,0 +1,9 @@
+"0","```r
+test.conf.mat <- as.matrix( table(Predicted = knn.test, Actual = test.data$label) )
+test.conf.mat
+```"
+"1","         Actual
+Predicted nonspam spam
+  nonspam     122    2
+  spam          8  128
+"

@@ -1,0 +1,6 @@
+"0","```r
+knn.test <- knn(train = rbind(training.set, validate.set),
+                test = test.set,
+                cl = train.data$label,
+                k = 9)
+```"

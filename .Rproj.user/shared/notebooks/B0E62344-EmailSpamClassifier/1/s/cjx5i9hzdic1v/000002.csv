@@ -1,0 +1,4 @@
+"0","```r
+nb.pred <- predict(object = nb.fit, 
+                   newdata = as.data.frame(test.set), type = \"class\")
+```"

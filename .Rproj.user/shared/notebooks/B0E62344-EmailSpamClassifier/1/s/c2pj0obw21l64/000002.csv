@@ -1,0 +1,4 @@
+"0","```r
+library(tm) # f. for working with corpus originate from the tm package
+corpus <- Corpus(VectorSource(all.data$text)) 
+```"

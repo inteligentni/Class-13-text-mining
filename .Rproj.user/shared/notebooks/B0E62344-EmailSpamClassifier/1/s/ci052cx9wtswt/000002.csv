@@ -1,0 +1,9 @@
+"0","```r
+nb.cm <- as.matrix ( table( predicted = nb.pred, actual = test.data$label ) )
+nb.cm
+```"
+"1","         actual
+predicted nonspam spam
+  nonspam     125   14
+  spam          5  116
+"

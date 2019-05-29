@@ -1,0 +1,4 @@
+"0","for(i in 1:nrow(train.data)) {"
+"0","  train.data$text[i] <- read.text(train.data$fpath[i]) "
+"0","}"
+"0","head(train.data)"

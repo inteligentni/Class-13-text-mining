@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559122227915.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2221027832",
+    "id" : "71DD2783",
+    "lastKnownWriteTime" : 1559124595,
+    "last_content_update" : 1559124595534,
+    "path" : "~/Documents/FON/Nastava/Inteligentni sistemi/Nastava/2019 Text minin predavanje/Sentiment Analysis project/AppleSentimentClassifier.Rmd",
+    "project_path" : "AppleSentimentClassifier.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "152,0",
+        "scrollLine" : "138",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

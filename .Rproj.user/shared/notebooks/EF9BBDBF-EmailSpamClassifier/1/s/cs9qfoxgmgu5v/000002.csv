@@ -1,0 +1,5 @@
+"0","library(tm)"
+"2","package 'tm' was built under R version 3.4.3"
+"0","library(caret)"
+"0","library(class) # for kNN classifier"
+"0","source(""text_mining_utils.R"")"

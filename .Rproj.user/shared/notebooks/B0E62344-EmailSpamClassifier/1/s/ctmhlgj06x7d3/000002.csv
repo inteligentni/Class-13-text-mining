@@ -1,0 +1,4 @@
+"0","```r
+nb.fit <- naiveBayes(CLABEL ~ ., 
+                       data = nb.train, laplace = 1)
+```"

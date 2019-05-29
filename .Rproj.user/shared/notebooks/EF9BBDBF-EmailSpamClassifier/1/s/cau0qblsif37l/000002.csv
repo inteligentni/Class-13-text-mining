@@ -1,0 +1,6 @@
+"0","set.seed(2612)"
+"0","knn.cv <- train(x = training.dtm, "
+"0","                y = train.labels, "
+"0","                method = ""knn"", "
+"0","                trControl = numFolds, "
+"0","                tuneGrid = kGrid)"

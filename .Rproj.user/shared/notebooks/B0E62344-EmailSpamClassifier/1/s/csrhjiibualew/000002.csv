@@ -1,0 +1,6 @@
+"0","```r
+compute.eval.measures(conf.mat)
+```"
+"1"," accuracy precision    recall        F1 
+   0.9600    0.9756    0.9412    0.9581 
+"

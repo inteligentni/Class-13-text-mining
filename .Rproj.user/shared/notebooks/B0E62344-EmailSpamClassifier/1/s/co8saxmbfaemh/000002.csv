@@ -1,0 +1,18 @@
+"0","```r
+set.seed(135)
+k.candidates <- c(3,5,7,9,11)
+results <- data.frame()
+for(kc in k.candidates) {
+  knn.pred <- knn(train = training.set,
+                  test = validate.set,
+                  cl = train.labels,
+                  k = kc)
+  
+  conf.mat <- as.matrix( table(knn.pred, validate.labels) )
+  eval.res <- compute.eval.measures(conf.mat)
+  results <- rbind(results, eval.res)
+}
+colnames(results) <- c(\"accuracy\", \"precision\", \"recall\", \"F1\")
+results$k <- k.candidates
+results
+```"

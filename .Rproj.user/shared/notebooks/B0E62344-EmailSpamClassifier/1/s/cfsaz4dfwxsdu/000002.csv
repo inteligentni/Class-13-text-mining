@@ -1,0 +1,12 @@
+"0","```r
+set.seed(135)
+# generate random numbers that follow uniform distribution
+randomized <- runif(n = nrow(train.data)) 
+# shuffle the rows in the order defined by the randomly generated numbers 
+train.data <- train.data[ order(randomized), ]
+# check if the data rows have really been shuffled
+train.data[1:10, 2]
+```"
+"1"," [1] nonspam nonspam nonspam spam    spam    spam    nonspam nonspam spam    nonspam
+Levels: nonspam spam
+"

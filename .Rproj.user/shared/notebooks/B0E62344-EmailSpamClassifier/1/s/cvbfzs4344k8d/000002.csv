@@ -1,0 +1,12 @@
+"0","```r
+train.data <- data.frame(fpath = c(spam.train.files, nonspam.train.files),
+                         label = c(rep(\"spam\", times=length(spam.train.files)),
+                                   rep(\"nonspam\", times=length(nonspam.train.files))),
+                         text = NA, stringsAsFactors = FALSE)
+str(train.data)
+```"
+"1","'data.frame':	700 obs. of  3 variables:
+ $ fpath: chr  \"data/emails/spam-train/spmsga1.txt\" \"data/emails/spam-train/spmsga10.txt\" \"data/emails/spam-train/spmsga100.txt\" \"data/emails/spam-train/spmsga101.txt\" ...
+ $ label: chr  \"spam\" \"spam\" \"spam\" \"spam\" ...
+ $ text : logi  NA NA NA NA NA NA ...
+"
