@@ -84,6 +84,8 @@ replaceSadSmiley <- function(x) gsub("((>?):(-?)[\\(|/|O|o])",
 tw.corpus <- tm_map(tw.corpus, replaceSadSmiley)
 print.tweets( tw.corpus, from = 80, to = 100 )
 
+# back to the slides
+
 # remove stopwords from corpus;
 # first examine the tm's set of stopwords
 stopwords('english')[100:120]
@@ -109,6 +111,8 @@ print.tweets( tw.corpus, from = 30, to = 70 )
 tw.corpus <- tm_map(tw.corpus, stripWhitespace)
 print.tweets( tw.corpus, from = 30, to = 70 )
 
+# back to the slides
+
 # do word stemming using the Snowball stemmer: https://snowballstem.org/
 # to use the Snowball stemmer in R, we need the SnowballC package
 #install.packages("SnowballC")
@@ -122,6 +126,8 @@ tw.corpus.backup <- tw.corpus
 tw.corpus <- tm_map(tw.corpus, stemDocument, language = "english") 
 print.tweets( tw.corpus, from = 30, to = 70)
 
+# back to the slides
+
 #####################################
 ## BUILDING A DOCUMENT-TERM MATRIX ##
 #####################################
@@ -132,8 +138,9 @@ print.tweets( tw.corpus, from = 30, to = 70)
 
 min.freq <- round(0.005*length(tw.corpus))
 max.freq <- round(0.95*length(tw.corpus))
+
 dtm <- DocumentTermMatrix(tw.corpus, 
-                          control = list(bounds = list(global = c(min.freq,max.freq)),
+                          control = list(bounds = list(global = c(min.freq, max.freq)),
                                          wordLengths = c(2,16), # the restriction on the word length
                                          weighting = weightTf)) # term freq. weighting scheme
 
@@ -157,6 +164,8 @@ head(colSums(as.matrix(dtm)))
 # better if they are sorted
 sort(colSums(as.matrix(dtm)), decreasing = T)
 
+# back to the slides
+
 #################################################
 ## CLASSIFYING TWEETS USING NAIVE BAYES METHOD ##
 #################################################
@@ -166,6 +175,8 @@ sort(colSums(as.matrix(dtm)), decreasing = T)
 # can be passed to a function for building a classifier:
 features.final <- as.data.frame(as.matrix(dtm.trimmed))
 str(features.final)
+
+head(features.final)
 
 # add the class label
 features.final$CLASS_LBL <- tweets.data$Lbl 
